@@ -154,7 +154,7 @@ body {
 }
 
 .note {
-  padding: 20px 0;
+  padding: 20px 3%;
 }
 
 .cat {
@@ -207,15 +207,6 @@ h3 {
   margin: 0 1%;
   font-weight: bold;
 }
-
-.description p {
-  line-height:1.2;
-  font-size: 24px;
-  width: 100%;
-  max-width: 800px;
-  margin: 30px auto 30px auto;
-}
-
 
 
 /* —————footer styles ———————————————*/
@@ -648,6 +639,11 @@ h2 {
   .schedule {
     margin-bottom: 15%;
   }
+
+  .content-inner h4 {
+    font-size: 23px;
+    padding-top: 3px;
+  }
  
 }
 
@@ -658,5 +654,10 @@ h2 {
 
   .flip-nav {
     width: 65%;
+  }
+
+  .content-inner h4 {
+    font-size: 15px;
+    padding-top: 3px;
   }
 }
